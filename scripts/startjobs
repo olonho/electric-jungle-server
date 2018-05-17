@@ -1,0 +1,8 @@
+#!/bin/sh
+
+ROOT=/net/electricjungle/ed/ElectricJunglesServlet/scripts
+host=$1
+num=$2
+echo "Will start $num jobs on $host"
+cmd="ssh $host $ROOT/start_cluster $num $ROOT/runner.sh"
+exec $cmd

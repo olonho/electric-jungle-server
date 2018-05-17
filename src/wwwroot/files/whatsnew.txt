@@ -1,0 +1,165 @@
+Electric Jungle Engine
+CHANGES
+
+Version 1.7.3 :: Mar 11, 2007
+===========================
++ allowed unperturbed runs of game with same random seeds (only works in 
+  non-UI games for now)
+
+Version 1.7.2 :: Mar 05, 2007
+===========================
++ fixed NPE when terminating contest
+
+Version 1.7.1 :: Mar 03, 2007
+===========================
++ implemented getting random seed from command line or config file
++ better handling of conteest termination
++ speedup in torus topology code
++ hopefully this will be the version final run upon
+
+Version 1.7.0 :: Feb 20, 2007
+===========================
++ better error reporting from server (partially based on BegemoT work)
++ added -batch command line switch to run in headless mode from config file
++ updates to remote protocol to provide error reporting (so need to clean 
+  applet cache again)
+  also saved game won't playback on newer engine)
++ internal cleanups and refactoring
++ saves can be played back for remote viewing
+
+Version 1.6.6 :: Feb 12, 2007
+===========================
++ minor cleanups
++ decrease in network traffic of the remote viewer (make sure 
+  you cleaned up applet cache)
++ rouding mass up, not down, in getMass()
++ grouping introduced
+
+Version 1.6.5 :: Feb 02, 2007
+===========================
++ fixed bug in event processing that could kill an engine
++ in local viewer players can use custom icons
+
+Version 1.6.4 :: Jan 28, 2007
+===========================
++ improvments to custom entities systems
++ minor refinements in resource control, for case of dead creatures 
++ fixed stepTowards() for speed > 1, thanks VladimirTTT
+
+Version 1.6.3 :: Jan 22, 2007
+===========================
++ improvments in Netbeans project useability
++ docs updated
++ removed deprecation marks from getX(), getY(), to avoid confusion
+
+Version 1.6.2 :: Jan 20, 2007
+===========================
++ timeTillKilled() always return positive values or 0 for valid beings
++ documentation update
++ minor engine cleanup and development (shouldn't affect contest)
++ rules clarified
+
+Version 1.6.1 :: Jan 19, 2007
+===========================
++ minor Javadoc updates
++ hopefully improved termination of long turns
+
+Version 1.6 :: Jan 18, 2007
+===========================
++ better alternative topology support
++ added HoneycombTopology by ai91
++ implemented BeingInterface.stepToward() 
++ pass real amount of energy given as parameter of BEING_ENERGY_GIVEN
+
+Version 1.5.3 :: Jan 17, 2007
+===========================
++ fixed bug with survival cost
++ fixed NPE in viewer
++ made UI a bit more intuitive
++ implemented EntityInterface.timeTillKilled()
+
+Version 1.5.2 :: Jan 15, 2007
+===========================
++ annotate all points with more than one being with counter
++ added java.util.concurrent to allowed list
+
+Version 1.5.1 :: Jan 14, 2007
+===========================
++ energy never lost when giving 
++ some security improvments
++ included Javadoc documentation
+
+Version 1.5 :: Jan 14, 2007
+===========================
++ UI improvments
++ fixed recording bugs reported by nh
++ apply all actions only when moves completed
++ added some Javadoc documentation
++ made all explicit operations on Location deprecated
+  (to make engine topology-transparent)
+
+Version 1.4.3 :: Jan 12, 2007
+===========================
++ improved engine performance (tivv's suggestion on ConcurrentHashMap)
++ fixed bug with adding sources
++ maxTurns depends on game kind
++ added property files for standard games
+
+Version 1.4.2 :: Jan 10, 2007
+===========================
++ fixed NPE in viewer
++ getMass() now returns rounded value
++ being id now is random
+
+Version 1.4.1 :: Jan 9, 2007
+===========================
++ add bonus source to place where being is born
++ some internal fixes
+
+Version 1.4 :: Jan 7, 2007
+===========================
++ improved config files
++ fixed some UI badness
++ more logging goes to user provided stream
+
+Version 1.3.4 :: Jan 6, 2007
+===========================
++ fixed nasty being loader bug
++ fixed UI bugs
++ single stepping consistent between universes
++ added -config switch to allow automated start of the game
+
+Version 1.3.3 :: Jan 5, 2007
+===========================
++ improved creature JAR making
++ create clean or filled with creatures field
+
+Version 1.3.2 :: Jan 4, 2007
+===========================
++ Logging API in Util
++ Disable giving energy to enemy
++ order players in viewer by score
+
+Version 1.3.1 :: Jan 3, 2007
+===========================
++ Speed up event processing
++ Single step mode in UI
++ Restore beings list on "New game"
+
+Version 1.3 :: Jan 1, 2007
+===========================
++ Fixed deadlock in engine
++ added EntityInterface.createLocation()
+
+Version 1.2.1 :: Dec 30, 2006
+===========================
++ Connection progress dialog in viewer
++ Fixed NPE in giveEnergyTo()
+
+Version 1.2 :: Dec 28, 2006
+===========================
++ Allowed to use subpackages for being classes
++ API to obtain current turn number
++ reinit() is called before getParams()
++ Added java.policy
++ Removed unexistent links from beings.properties

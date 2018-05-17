@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+   <channel>
+      <title>Electricjungle SDK Updates</title>
+      <link>http://www.electricjungle.ru/</link>
+      <description>SDK updtates feed</description>
+      <generator>ppr.vitaly at gmail dot com</generator>
+      <language>en</language>
+      <managingEditor>igotti@gmail.com</managingEditor>
+      <webMaster>igotti@gmail.com</webMaster>
+      <lastBuildDate>2007-02-19 15:36:00</lastBuildDate> 
+      
+      <item>
+         <title>Version 1.7</title>
+         <link>http://www.electricjungle.ru:8080/files/ejungle_distr.jar</link>
+         <description>
+           error reporting, network protocol changes
+         </description>
+         <pubDate>2007-02-19 15:36:00 MSK</pubDate>
+         <comments></comments>
+      </item>
+
+      <item>
+         <title>Version 1.6.6</title>
+         <link>http://www.electricjungle.ru:8080/files/ejungle_distr.jar</link>
+         <description>
+           decreased network traffic in the viewer, cleanup
+         </description>
+         <pubDate>2007-02-04 15:36:00 MSK</pubDate>
+         <comments></comments>
+      </item>
+
+      <item>
+         <title>Version 1.6.5</title>
+         <link>http://www.electricjungle.ru:8080/files/ejungle_distr.jar</link>
+         <description>
+           fixed engine bug, allowed custom icons in local games
+         </description>
+         <pubDate>2007-02-02 00:25:00 MSK</pubDate>
+         <comments></comments>
+      </item>
+
+      <item>
+         <title>Version 1.6.4</title>
+         <link>http://www.electricjungle.ru:8080/files/ejungle_distr.jar</link>
+         <description>
+         improvments to custom entities systems, minor refinements in resource control, for case of dead creatures, fixed stepTowards() for speed > 1, thanks VladimirTTT
+         </description>
+         <pubDate>2007-01-28 15:31:00 MSK</pubDate>
+      </item>
+
+   </channel>
+</rss>

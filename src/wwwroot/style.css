@@ -1,0 +1,39 @@
+body {margin: 0px; padding: 0px; font-family: Arial; font-size: 9pt}
+table {font-size: 9pt}
+p {margin: 5px 0px 10px 0px}
+h2 {font-size: 9pt; font-weight: bold; color: #808000; margin: 0px  0px 10px  0px}
+h4 {font-size: 9pt; font-weight: bold; color: #a00000; margin: 10px}
+h5 {font-size: 9pt; font-weight: normal; color: #ffffff; margin: 0px 10px  0px 10px}
+ul {margin-top: 5px; margin-bottom: 5px}
+ol {margin-top: 5px; margin-bottom: 5px}
+ul.itemc {margin: 0px 0px 0px 15px; padding: 0px 0px 0px 0px; list-style-image: url(images/item_check.gif)}
+ul.itema {margin: 0px 0px 0px 15px; padding: 0px 0px 0px 0px; list-style-image: url(images/item_arrow.gif)}
+ul.itemi {margin: 0px 0px 0px 15px; padding: 0px 0px 0px 0px; list-style-image: url(images/item_circle.gif); color: #465a7c}
+.hl {color: #465a7c}
+.alt {color: #ffffcc}
+.menu {font-size: 8pt; color: #708299}
+.menui {font-size: 8pt; color: #ffffff; padding-bottom: 5px}
+a.menu, a.menui, a.alt {text-decoration: none}
+a.menui:hover, a.alt:hover {color: #ffffff}
+a.splash {color: #206666}
+a.news, a.news:hover {color: #000000; text-decoration: none}
+a {color: #61728e}
+a:hover {color: #7099a0}
+.menuline {width: 1px; height: 12px; background-color: #ffffff}
+table.cell {background: #909030 url(images/tab_shadow.gif) repeat-x bottom}
+th.cell  {background: #909030 url(images/tab_uc.gif); border: 1px solid #ffffff; font-weight: bold; color: #ffffff}
+td.cell  {background: #dee4b6 none; border: 1px solid #ffffff}
+td.cella {background: #dbe0e6 none; border: 1px solid #ffffff}
+td.celle {background: #dee4b6 none; border: 1px solid #ffffff; font-size: 8pt; color: #808080}
+.lowered {border: 1px solid; border-color: #808080 #ffffff #ffffff #808080}
+.small {font-size: 8pt; line-height: 12pt}
+.gray {font-family: Small Fonts, Arial, Verdana; font-size: 7pt; color: #909090}
+.popup1 {margin-right: 5px; background: #afbdce url(images/left_popup1.jpg)}
+.popup2 {font-size: 8pt; line-height: 12pt; text-align: left; color: #000000; text-decoration: none; background: url(images/left_popup2.jpg) no-repeat 0 100%; padding: 3px}
+td.info {font-size: 8pt; line-height: 12pt; padding: 5px}
+form {margin: 0px}
+input, textarea, select {font-family: Arial; font-size: 9pt; font-weight: normal; background-color: #dee4b6; color: #000000; border-width: 1px}
+input.button {font-weight: bold; background-color: #909030; color: #ffffff; cursor: hand}
+input.buttonsmall {font-size: 8pt; background-color: #909030; color: #ffffff; cursor: hand}
+input.checkbox {background: none}
+input.number {text-align: right}

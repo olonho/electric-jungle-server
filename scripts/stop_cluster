@@ -1,0 +1,11 @@
+#!/bin/sh
+
+PATH=/usr/java/bin:/usr/java/jdk1.6.0/bin:$PATH
+export PATH
+
+# kill all runners
+ps -ef|grep cluster.sh | grep -v grep | awk  '{print $2}' | xargs kill
+
+jps |grep ClusterClient | awk  '{print $1}'| xargs kill 
+sleep 3
+jps |grep ClusterClient | awk  '{print $1}'| xargs kill -9 2>/dev/null

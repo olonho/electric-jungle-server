@@ -1,0 +1,10 @@
+#!/bin/sh
+ROOT=/net/electricjungle/ed/ElectricJunglesServlet/scripts
+chmod +x /net/electricjungle/ed/ElectricJunglesServlet/scripts/*
+
+for i in `cat $ROOT/machines`;
+do
+   box=`echo $i | awk -F:  '{ print $1 }'`
+   num=`echo $i | awk -F:  '{ print $2 }'`
+   $ROOT/startjobs $box $num
+done

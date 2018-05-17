@@ -1,0 +1,7 @@
+#!/bin/sh
+
+ROOT=/net/electricjungle/ed
+host=$1
+echo "Stopping jobs on $host"
+cmd="ssh $host $ROOT/ElectricJunglesServlet/scripts/stop_cluster"
+exec $cmd

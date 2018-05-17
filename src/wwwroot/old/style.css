@@ -1,0 +1,18 @@
+body {margin: 0px; padding: 0px; font-family: Arial; font-size: 9pt}
+td {font-size: 9pt}
+th {font-size: 9pt; font-weight: bold; color: #ffffff}
+p {font-size: 9pt; margin: 5px 0px 10px 0px}
+h2 {font-size: 12pt; font-weight: bold; margin: 20px 0px 10px 0px}
+h4 {font-size: 9pt; font-weight: bold; margin: 10px 0px 10px 0px; color: #ff0000}
+ul {margin: 5px 0px 5px 30px}
+ol {margin: 5px 0px 5px 35px}
+a {color: #5080a0}
+a.page {font-weight: bold; color: #5080a0; text-decoration: none}
+a.menu {font-weight: bold; color: #ffffff; text-decoration: none}
+table.bordered {border: solid 1px #0099ff}
+.small {font-size: 8pt}
+form {margin: 0px}
+input, textarea, select {font-family: Arial; font-size: 9pt; font-weight: normal; background-color: #dddddd; color: #000000; border-width: 1px}
+input.button {font-weight: bold; background-color: #808080; color: #ffffff; cursor: hand}
+input.checkbox {background: none}
+input.number {text-align: right}

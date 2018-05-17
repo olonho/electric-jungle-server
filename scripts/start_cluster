@@ -1,0 +1,29 @@
+#!/bin/bash
+
+num=$1
+prog=$2
+
+if [ "x$prog" = "x" ];
+ then
+  echo "Usage: $0 num_clients prog"
+  exit 1
+ fi 
+
+count () {
+    n=0
+    while [ "${n}" -lt $num ]
+    do
+	echo "${n}"
+	n=`expr "${n}" + 1`
+    done
+}
+
+
+chmod +x $prog
+for i in `count`
+do 
+  nohup $prog >/dev/null&
+  #nohup $prog &
+done
+disown
+
